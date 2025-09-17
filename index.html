@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="surveyForm">
+       <h1> <u>Survey Form </u></h1><br>
+    <label for="name">Name</label><BR>
+    <input type="text" id="name"><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email"><br>
+    <label for="satisfaction">How satisfied are you with our service?</label> <br>
+    <select name="How satisfied are you with our service?" id="satisfaction">
+        How satisfied are you with our service? 
+       <option value="Very satisfied">Very satisfied</option>
+       <option value="Satisfied">Satisfied</option>
+       <option value="Neutral">Neutral</option>
+       <option value="Dissatisfied">Dissatisfied</option>
+       <option value="Very Dissatisfied">Very Dissatisfied</option>
+    </select><br>
+    <label for="Recommendation">Would you recommend us to a friend?</label><br>
+  
+    <input type="radio" name="Yes"> <label for="Yes">Yes</label><br>
+    <input type="radio" name="Yes"><label for="Yes">No</label>
+
+    <br>
+
+    <textarea name="Additional comments" id="comments" placeholder="Additional Comments"></textarea><br>
+   
+    <button type="submit" id="submitBtn"> Submit</button>
+    <br>
+    <div id="form-feedback">
+        
+
+    </div>
+    
+
+      
+   
+</form>
+    
+<script>src="survey.js"</script>
+</body>
+</html>
